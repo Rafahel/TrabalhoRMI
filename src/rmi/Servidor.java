@@ -5,9 +5,6 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-/**
- * Created by Rafahel on 28/03/2017.
- */
 public class Servidor extends UnicastRemoteObject implements Operacao {
 
 

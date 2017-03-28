@@ -6,9 +6,6 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.util.Scanner;
 
-/**
- * Created by Rafahel on 28/03/2017.
- */
 public class Cliente {
     Operacao operacao = null;
     public Cliente(){
