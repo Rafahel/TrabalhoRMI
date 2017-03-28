@@ -1,0 +1,9 @@
+Compilar utilizando: javac *.java
+
+Para adicionar no rmireg: rmic rmi.Servidor
+
+Para rodar: rmiregistry 
+	Caso de algum erro utilizar: rmiregistry -J-Djava.rmi.server.useCodebaseOnly=false
+
+Para executar o servidor: java rmi.Servidor
+Para executar o cliente: java rmi.Cliente
